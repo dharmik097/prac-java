@@ -3,7 +3,9 @@ package practice01;
 public class Main {
     public static void main (String[] args) {
         System.out.println("Jay HInd");
-    }
 
+        int age = 30;
+        System.out.println(age);
+    }
 }
 
