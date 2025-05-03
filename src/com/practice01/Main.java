@@ -47,8 +47,8 @@ public class Main {
         String name3 = name2.replace('D', 'K');
         System.out.println(name3);
 
-
-
+        // substring
+        System.out.println(name3.substring(2,5));
 
     }
 }
