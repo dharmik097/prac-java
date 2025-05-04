@@ -74,6 +74,15 @@ public class Main {
         Arrays.sort(marks);
         System.out.println(marks[0]);
 
+        // 2d array
+        int[] marks2 = {97,98,95};
+
+        int[][] finaMarks = {{97,98,95},{99,99,99}};
+        System.out.println(finaMarks[0][0]);
+        System.out.println(finaMarks[1][0]);
+        System.out.println(finaMarks[0][1]);
+        System.out.println(finaMarks[1][1]);
+
 
     }
 }
