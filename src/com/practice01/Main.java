@@ -50,6 +50,24 @@ public class Main {
         // substring
         System.out.println(name3.substring(2,5));
 
+        // Arrays
+
+        int math = 30;
+        int physics = 97;
+        int chem = 98;
+        int eng = 95;
+
+        int[] marks = new int[3];
+        marks[0] = 97;
+        marks[1] = 98;
+        marks[2] = 95;
+
+        System.out.println(marks[0]);
+        System.out.println(marks[1]);
+        System.out.println(marks[2]);
+
+
+
     }
 }
 
