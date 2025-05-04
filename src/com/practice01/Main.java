@@ -1,5 +1,5 @@
 package com.practice01;
-
+import java.util.Arrays;
 import com.sun.source.util.SourcePositions;
 
 import java.sql.SQLOutput;
@@ -68,6 +68,12 @@ public class Main {
 
         // length
         System.out.println(marks.length);
+
+        // sort
+        System.out.println(marks[0]);
+        Arrays.sort(marks);
+        System.out.println(marks[0]);
+
 
     }
 }
