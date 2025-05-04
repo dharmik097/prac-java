@@ -66,7 +66,8 @@ public class Main {
         System.out.println(marks[1]);
         System.out.println(marks[2]);
 
-
+        // length
+        System.out.println(marks.length);
 
     }
 }
