@@ -83,6 +83,13 @@ public class Main {
         System.out.println(finaMarks[0][1]);
         System.out.println(finaMarks[1][1]);
 
+        // casting
+        double price = 100.00;
+        double finalPrice = price + 18;
+        System.out.println(finalPrice);
+
+
+
 
     }
 }
