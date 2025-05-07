@@ -99,7 +99,7 @@ public class Main {
 
 
         // operators
-        // + - * / %
+        // + - * / % =
 
         int a = 1;
         int b = 2;
@@ -114,6 +114,13 @@ public class Main {
         System.out.println(div);
         double mod = a % b;
         System.out.println(mod);
+
+        int numb = 1;
+        System.out.println(++numb);//first add 1 then print 2
+        System.out.println(numb++); // first print next add 1
+        System.out.println(numb);// 1
+        // there are so many operatos like this...
+
 
 
 
