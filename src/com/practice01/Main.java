@@ -88,6 +88,23 @@ public class Main {
         double finalPrice = price + 18;
         System.out.println(finalPrice);
 
+        int p = 100;
+        int fp = p + (int)18.99; //if rmv (int) it will show error,because decimal values are nit compitable to int
+        System.out.print(fp);
+
+        // constants
+
+        int age = 30; // its variable
+        // but what about constant ??
+
+        float pi = 3.14F; // still it coluld be change
+        final float PI = 3.14F; //now its final it remain constant it tradition to use upper case.
+
+
+        // operators
+
+
+
 
 
 
