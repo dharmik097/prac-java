@@ -1,8 +1,5 @@
 package com.practice01;
 import java.util.Arrays;
-import com.sun.source.util.SourcePositions;
-
-import java.sql.SQLOutput;
 
 public class Main {
     public static void main (String[] args) {
@@ -94,7 +91,7 @@ public class Main {
 
         // constants
 
-        int age = 30; // its variable
+        int Age = 30; // its variable
         // but what about constant ??
 
         float pi = 3.14F; // still it coluld be change
@@ -102,6 +99,28 @@ public class Main {
 
 
         // operators
+        // + - * / %
+
+        int a = 1;
+        int b = 2;
+
+        int add = a + b;
+        System.out.println(add);
+        int sub = a - b;
+        System.out.println(sub);
+        double mult = a * b;
+        System.out.println(mult);
+        double div = a / b;
+        System.out.println(div);
+        double mod = a % b;
+        System.out.println(mod);
+
+
+
+
+
+
+
 
 
 
