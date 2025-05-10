@@ -1,5 +1,6 @@
 package com.practice01;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
     public static void main (String[] args) {
@@ -124,9 +125,32 @@ public class Main {
         // maths
 
         System.out.println(Math.max(5,6));
+        System.out.println(Math.min(5,6));
+        System.out.println(Math.random());
+        System.out.println(Math.random()*100);
+
+        // to take input
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Input Your Age: ");
+        int age2 = sc.nextInt();
+        System.out.println(age2);
+
+        Scanner sc2 = new Scanner(System.in);
+        System.out.println("Input Your Age: ");
+        float age3 = sc.nextFloat();
+        System.out.println(age3);
+
+//        Scanner sc4 = new Scanner(System.in);
+//        System.out.println("Input Your name: ");
+//        String name5 = sc.next();
+//        System.out.println(name5);
 
 
-
+        Scanner sc3 = new Scanner(System.in);
+        System.out.println("Input Your name: ");
+        String name4 = sc.nextLine();
+        System.out.println(name4);
 
 
 
