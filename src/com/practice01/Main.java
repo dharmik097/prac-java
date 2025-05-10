@@ -121,6 +121,9 @@ public class Main {
         System.out.println(numb);// 1
         // there are so many operatos like this...
 
+        // maths
+
+        System.out.println(Math.max(5,6));
 
 
 
